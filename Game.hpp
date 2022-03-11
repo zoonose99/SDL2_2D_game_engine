@@ -23,6 +23,9 @@ public:
 
 	bool running() { return isRunning; }; //inline
 
+	static SDL_Renderer* renderer;
+
+
 private:
 	int cnt; //test counter
 	bool isRunning;
